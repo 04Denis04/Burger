@@ -57,7 +57,7 @@ document.getElementById("change-currency").onclick = function (e) {
         coefficient = 7.20;
     }else if (currentCurrency === "CNY") {
         newCurrency = "TRY";
-        coefficient = 30.8аа7;
+        coefficient = 30.87;
     }
     e.target.innerText = newCurrency;
 
